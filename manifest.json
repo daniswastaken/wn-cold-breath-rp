@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§l§b[Why Not] §r§fCold Breath§r",
+        "description": "Adds a nice cold breathing particles effect for players in cold biomes.",
+        "uuid": "468e2f8e-8a5b-4b2a-89a1-d57a27c00e62",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "metadata": {
+        "product_type": "addon"
+    },
+    "modules": [
+        {
+            "description": "Cold Breath Resource Pack Module",
+            "type": "resources",
+            "uuid": "a36d3f2e-1c9a-4e8b-9e1d-5b7a27c00e63",
+            "version": [1, 0, 0]
+        }
+    ],
+    "capabilities": [
+        "pbr"
+    ],
+    "dependencies": [
+        {
+            "uuid": "b47e2f8e-2b5b-4c2a-90a1-e67a27c00e64",
+            "version": [1, 0, 0]
+        }
+    ]
+}
